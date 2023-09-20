@@ -1,0 +1,6 @@
+var urls = "<?php echo home_url(); ?>";
+var change_url = 'https://www.google.com'; // Note the use of a complete URL
+const redirect = () => {
+  location.href = change_url;
+};
+redirect();
